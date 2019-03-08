@@ -4,6 +4,15 @@ import sqlite3
 import subprocess
 import sys
 
+print("""
+██████╗ ██╗    ██╗███╗   ██╗ ██████╗██╗  ██╗██████╗  ██████╗ ███╗   ███╗███████╗
+██╔══██╗██║    ██║████╗  ██║██╔════╝██║  ██║██╔══██╗██╔═══██╗████╗ ████║██╔════╝
+██████╔╝██║ █╗ ██║██╔██╗ ██║██║     ███████║██████╔╝██║   ██║██╔████╔██║█████╗  
+██╔═══╝ ██║███╗██║██║╚██╗██║██║     ██╔══██║██╔══██╗██║   ██║██║╚██╔╝██║██╔══╝  
+██║     ╚███╔███╔╝██║ ╚████║╚██████╗██║  ██║██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
+╚═╝      ╚══╝╚══╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+""")
+
 
 def main():
     paths = {
@@ -22,7 +31,7 @@ def main():
 
         if not os.path.exists(installation_path):
             print("Installation path does not exist. Please check if Chrome is installed.")  # Notifies the user that the installation path for Google Chrome does not exist for said PC and quits the script.
-            sys.exit(1)
+            sys.exit(0)
 
         else:
             try:
