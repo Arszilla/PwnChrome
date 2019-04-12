@@ -28,8 +28,7 @@ def main():
     try:
         import win32crypt
 
-        # Goes to the home directory of user's PC,
-        # pulls the installation path from "paths" dictionary.
+        # Navigates to the home directory of user's PC and navigates to the installation path from "paths" dictionary.
         installation_path = os.path.join(*[os.path.expanduser("~")] + paths[platform.system()])
 
         if not os.path.exists(installation_path):
