@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
     <a href="https://github.com/Arszilla/PwnChrome/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/Arszilla/PwnChrome.svg?logo=github&logoColor=white">
     </a>
