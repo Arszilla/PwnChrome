@@ -35,8 +35,7 @@ This project is for educational purposes **ONLY**.
 Written with Python 3.7.
 
 ## Acknowledgements
-- [w3w3w3 - ncorbuk](https://github.com/ncorbuk) for the [original code]
-(https://github.com/ncorbuk/Google-Chrome-Browser-Database-Hack) & exploit.
+- [w3w3w3 - ncorbuk](https://github.com/ncorbuk) for the [original code](https://github.com/ncorbuk/Google-Chrome-Browser-Database-Hack) & exploit.
 
 ## Disclaimer
 This project is for educational purposes **ONLY**. As the MIT License states:
